@@ -22,18 +22,6 @@
                             <plugins>
                                 <plugin>
                                     <groupId>org.apache.maven.plugins</groupId>
-                                    <artifactId>maven-compiler-plugin</artifactId>
-                                    <executions>
-                                        <execution>
-                                            <id>default-compile</id>
-                                            <outputs>
-                                                <notCacheableBecause>something</notCacheableBecause>
-                                            </outputs>
-                                        </execution>
-                                    </executions>
-                                </plugin>
-                                <plugin>
-                                    <groupId>org.apache.maven.plugins</groupId>
                                     <artifactId>maven-surefire-plugin</artifactId>
                                     <inputs>
                                         <properties>
